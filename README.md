@@ -1,17 +1,17 @@
 # Smart Railway Assistant 🚆
 
-This is a static website created for academic presentation.
+Modern static website created for Railway AI Chatbot presentation.
 
 ## Features
-- Train Schedule Inquiry
-- PNR Status Check
-- Ticket Fare Information
-- Railway AI Chatbot Integration
+- Modern Landing Page
+- Railway Theme
+- Chatbot Integration
+- Responsive Layout
 
-## Technologies Used
+## Tech Stack
 - HTML
 - CSS
 - JavaScript
-- IBM Watson Chatbot
+- IBM Watson Assistant
 
-Created for College Project.
+Academic Presentation Project
