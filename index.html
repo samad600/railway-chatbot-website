@@ -50,17 +50,18 @@
   <p>Interact with our AI assistant below:</p>
 
   <!-- Replace with IBM Watson Embed -->
-  <iframe 
-      src="YOUR_CHATBOT_EMBED_LINK"
-      width="350" 
-      height="500">
-  </iframe>
-</section>
-
-<footer>
-  <p>© 2026 Smart Railway Assistant | Academic Project</p>
-</footer>
-
-<script src="script.js"></script>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "9518cb03-6f8c-49d0-8e9a-cf0b0dafa016", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "e2c5513d-8b0e-47f3-9f33-a39ea7ac458e", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
 </body>
 </html>
