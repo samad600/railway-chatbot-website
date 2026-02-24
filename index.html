@@ -1,51 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Smart Railway Assistant</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Railway Assistant</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+<nav>
+  <div class="logo">🚆 Smart Railway</div>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#chatbot">Chatbot</a></li>
+  </ul>
+</nav>
+
 <header>
-    <h1>🚆 Smart Railway Assistant</h1>
-    <p>AI Powered Railway Chatbot System</p>
+  <div class="hero">
+    <h1>AI Powered Railway Assistant</h1>
+    <p>Smart. Fast. Reliable Railway Inquiry System</p>
+    <a href="#chatbot" class="btn">Try Chatbot</a>
+  </div>
 </header>
 
-<section class="about">
-    <h2>About Project</h2>
-    <p>
-        This project is a Railway Chatbot designed to assist passengers with
-        ticket booking inquiries, train schedules, PNR status, and fare details.
-    </p>
+<section id="about">
+  <h2>About The Project</h2>
+  <p>
+    Smart Railway Assistant is an AI-based chatbot system designed to help passengers 
+    with train schedules, PNR status, fare inquiries and platform details.
+  </p>
 </section>
 
-<section class="features">
-    <h2>Features</h2>
-    <ul>
-        <li>Check Train Schedule</li>
-        <li>PNR Status Inquiry</li>
-        <li>Ticket Fare Information</li>
-        <li>Platform Information</li>
-        <li>24/7 AI Chat Support</li>
-    </ul>
+<section id="features" class="features">
+  <h2>Core Features</h2>
+  <div class="cards">
+      <div class="card">🚆 Train Schedule</div>
+      <div class="card">🎟 PNR Status</div>
+      <div class="card">💰 Ticket Fare</div>
+      <div class="card">📍 Platform Info</div>
+      <div class="card">🤖 24/7 Chat Support</div>
+  </div>
 </section>
 
-<section class="chatbot">
-    <h2>Railway Chatbot</h2>
-    <p>Click below to start chatbot:</p>
+<section id="chatbot" class="chatbot">
+  <h2>Railway Chatbot</h2>
+  <p>Interact with our AI assistant below:</p>
 
-    <!-- IBM Watson / Any chatbot iframe embed -->
-    <iframe 
-        src="YOUR_CHATBOT_EMBED_LINK_HERE"
-        width="350"
-        height="500">
-    </iframe>
-
+  <!-- Replace with IBM Watson Embed -->
+  <iframe 
+      src="YOUR_CHATBOT_EMBED_LINK"
+      width="350" 
+      height="500">
+  </iframe>
 </section>
 
 <footer>
-    <p>Created for Academic Presentation | © 2026</p>
+  <p>© 2026 Smart Railway Assistant | Academic Project</p>
 </footer>
 
 <script src="script.js"></script>
